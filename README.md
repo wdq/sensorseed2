@@ -1,43 +1,9 @@
-# Welcome to Revel
+# sensorseed2
 
-A high-productivity web framework for the [Go language](http://www.golang.org/).
+I'm rewriting the old [SensorSeed](https://github.com/wdq/SensorSeed) program in Go.
 
+The goal is to design the system to be more flexible in terms of adding and removing sensors and weather stations.
 
-### Start the web server:
+Using Go will also allow me to run the web application on something other than a Windows Server, so I can more easily and affordably host it in the cloud. 
 
-   revel run myapp
-
-### Go to http://localhost:9000/ and you'll see:
-
-    "It works"
-
-## Code Layout
-
-The directory structure of a generated Revel application:
-
-    conf/             Configuration directory
-        app.conf      Main app configuration file
-        routes        Routes definition file
-
-    app/              App sources
-        init.go       Interceptor registration
-        controllers/  App controllers go here
-        views/        Templates directory
-
-    messages/         Message files
-
-    public/           Public static assets
-        css/          CSS files
-        js/           Javascript files
-        images/       Image files
-
-    tests/            Test suites
-
-
-## Help
-
-* The [Getting Started with Revel](http://revel.github.io/tutorial/gettingstarted.html).
-* The [Revel guides](http://revel.github.io/manual/index.html).
-* The [Revel sample apps](http://revel.github.io/examples/index.html).
-* The [API documentation](https://godoc.org/github.com/revel/revel).
-
+I'll be writing about this project on my blog at https://quade.co.
